@@ -1,0 +1,58 @@
+{
+    "usuarios": [
+    {"nombre": "Sofía Vargas", "correo": "sofia.vargas@email.com", "telefono": "8833-4455", "fecha_registro": "2026-10-01"},
+    {"nombre": "Esteban Morales", "correo": "esteban@email.com", "telefono": "7722-1100", "fecha_registro": "2026-10-02"},
+    {"nombre": "Valeria Campos", "correo": "valeria@email.com", "telefono": "6011-2233", "fecha_registro": "2026-10-03"},
+    {"nombre": "María Fernández", "correo": "maria.fernandez@email.com", "telefono": "8822-1122", "fecha_registro": "2026-09-14"},
+    {"nombre": "Carlos Jiménez", "correo": "carlos.jimenez@email.com", "telefono": "8833-2233", "fecha_registro": "2026-09-16"},
+    {"nombre": "Ana Rojas", "correo": "ana.rojas@email.com", "telefono": "8844-3344", "fecha_registro": "2026-09-18"},
+    {"nombre": "José Mora", "correo": "jose.mora@email.com", "telefono": "8855-4455", "fecha_registro": "2026-09-20"},
+    {"nombre": "Laura Vargas", "correo": "laura.vargas@email.com", "telefono": "8866-5566", "fecha_registro": "2026-09-22"},
+    {"nombre": "Diego Solano", "correo": "diego.solano@email.com", "telefono": "8877-6677", "fecha_registro": "2026-09-25"},
+    {"nombre": "Camila Araya", "correo": "camila.araya@email.com", "telefono": "8888-7788", "fecha_registro": "2026-09-27"}
+    ],
+    "marca": [
+    {"_id": 1, "nombre": "Nike", "pais": "Estados Unidos"},
+    {"_id": 2, "nombre": "Adidas", "pais": "Alemania"},
+    {"_id": 3, "nombre": "Zara", "pais": "España"},
+    {"_id": 4, "nombre": "Levis", "pais": "Estados Unidos"},
+    {"_id": 5, "nombre": "Puma", "pais": "Alemania"},
+    {"_id": 6, "nombre": "H&M", "pais": "Suecia"}
+    ],
+    "prendas": [
+    {"_id": 101, "nombre": "Camisa Oversize", "precio": 22.5, "stock": 40, "id_marca": 3},
+    {"_id": 102, "nombre": "Pantalón Denim", "precio": 45.0, "stock": 25, "id_marca": 4},
+    {"_id": 103, "nombre": "Tenis Deportivas", "precio": 75.0, "stock": 15, "id_marca": 1},
+    {"_id": 104, "nombre": "Hoodie Básica", "precio": 35.0, "stock": 30, "id_marca": 2},
+    {"_id": 105, "nombre": "Camiseta Dri-FIT", "precio": 28.0, "stock": 35, "id_marca": 1},
+    {"_id": 106, "nombre": "Chaqueta Trucker", "precio": 70.0, "stock": 10, "id_marca": 4},
+    {"_id": 107, "nombre": "Camiseta Trefoil", "precio": 26.0, "stock": 28, "id_marca": 2},
+    {"_id": 108, "nombre": "Vestido Midi", "precio": 48.0, "stock": 12, "id_marca": 3},
+    {"_id": 109, "nombre": "Short Deportivo", "precio": 24.0, "stock": 22, "id_marca": 5},
+    {"_id": 110, "nombre": "Camiseta Essentials", "precio": 21.0, "stock": 33, "id_marca": 5},
+    {"_id": 111, "nombre": "Camisa Oxford", "precio": 32.0, "stock": 16, "id_marca": 6},
+    {"_id": 112, "nombre": "Suéter Tejido", "precio": 38.0, "stock": 11, "id_marca": 6}
+    ],
+    "ventas": [
+    {"_id": 1001, "id_prenda": 101, "cantidad": 2, "fecha": "2026-10-04", "total": 45.0},
+    {"_id": 1002, "id_prenda": 103, "cantidad": 1, "fecha": "2026-10-04", "total": 75.0},
+    {"_id": 1003, "id_prenda": 102, "cantidad": 3, "fecha": "2026-10-03", "total": 135.0},
+    {"_id": 1004, "id_prenda": 104, "cantidad": 2, "fecha": "2026-10-04", "total": 70.0},
+    {"_id": 1005, "id_prenda": 106, "cantidad": 1, "fecha": "2026-10-04", "total": 70.0},
+    {"_id": 1006, "id_prenda": 111, "cantidad": 1, "fecha": "2026-09-29", "total": 32.0},
+    {"_id": 1007, "id_prenda": 109, "cantidad": 1, "fecha": "2026-10-03", "total": 24.0},
+    {"_id": 1008, "id_prenda": 110, "cantidad": 1, "fecha": "2026-10-01", "total": 21.0},
+    {"_id": 1009, "id_prenda": 101, "cantidad": 1, "fecha": "2026-10-04", "total": 22.5},
+    {"_id": 1010, "id_prenda": 107, "cantidad": 1, "fecha": "2026-10-01", "total": 26.0},
+    {"_id": 1011, "id_prenda": 102, "cantidad": 3, "fecha": "2026-10-04", "total": 135.0},
+    {"_id": 1012, "id_prenda": 101, "cantidad": 3, "fecha": "2026-09-29", "total": 67.5},
+    {"_id": 1013, "id_prenda": 104, "cantidad": 3, "fecha": "2026-09-28", "total": 105.0},
+    {"_id": 1014, "id_prenda": 110, "cantidad": 3, "fecha": "2026-10-04", "total": 63.0},
+    {"_id": 1015, "id_prenda": 101, "cantidad": 1, "fecha": "2026-09-28", "total": 22.5},
+    {"_id": 1016, "id_prenda": 109, "cantidad": 1, "fecha": "2026-10-02", "total": 24.0},
+    {"_id": 1017, "id_prenda": 107, "cantidad": 1, "fecha": "2026-09-29", "total": 26.0},
+    {"_id": 1018, "id_prenda": 110, "cantidad": 2, "fecha": "2026-09-30", "total": 42.0},
+    {"_id": 1019, "id_prenda": 102, "cantidad": 3, "fecha": "2026-10-01", "total": 135.0},
+    {"_id": 1020, "id_prenda": 106, "cantidad": 1, "fecha": "2026-09-29", "total": 70.0}
+]
+}
