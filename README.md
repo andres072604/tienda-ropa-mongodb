@@ -21,7 +21,7 @@ Base de datos no relacional para una **tienda de ropa**, pensada como base de un
 tienda-ropa-mongodb/
 ├── README.md
 └── database/
-    ├── operaciones.js        # Creación de la BD, CRUD y consultas (con comentarios)
+    ├── operaciones.js        # Creación de la BD, CRUD y consultas
     └── datos_ficticios.json  # Datos de ejemplo de las 4 colecciones
 ```
 
